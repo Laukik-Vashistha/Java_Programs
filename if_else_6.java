@@ -9,16 +9,19 @@ public class if_else_6 {
         int age2 = sc.nextInt();
         System.out.println("Enter age3:");
         int age3 = sc.nextInt();
-        if (age1 > age2 && age1 > age3) {
-            if (age2 > age3) {
-                System.out.println("Second one is oldest.");
-            } else {
+        if (age1 > age2) {
+            if(age1>age3){
+                System.out.println("First one is oldest.");
+            }
+            else{
                 System.out.println("Third one is oldest.");
             }
-        } else {
-            if (age2 > age3) {
+        }
+        else {
+            if (age2> age3) {
                 System.out.println("Second one is oldest.");
-            } else {
+            }
+            else {
                 System.out.println("Third one is oldest.");
             }
         }
